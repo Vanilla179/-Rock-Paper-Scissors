@@ -40,7 +40,7 @@ function getComputerChoice(params) {
 //2 = paper
 //3 = scissors
 
-//play one round
+//play one round and check who won
 function playRound(computerSelection, playerSelection) {
   //computer wins\\\
   if ((playerSelection === 2) & (computerSelection === 1)) {
@@ -67,7 +67,7 @@ function playRound(computerSelection, playerSelection) {
     return "tie";
   }
 }
-//check who won
+//play best of 3 and check you won
 function game() {
   let computerscore = 0;
   let playerscore = 0;
