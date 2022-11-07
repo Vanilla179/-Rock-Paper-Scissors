@@ -68,7 +68,7 @@ function playRound(computerSelection, playerSelection) {
     return "tie";
   }
 }
-//play best of 3 and check you won
+//play fist to 5 and check winner
 function game() {
   let computerscore = 0;
   let playerscore = 0;
@@ -83,6 +83,7 @@ function game() {
     } else if (result === "computer") {
       console.log("you lose the round");
       computerscore++;
+      s;
     } else if (result === "tie") {
       console.log("tie");
     }
