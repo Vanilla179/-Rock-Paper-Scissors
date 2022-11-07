@@ -18,6 +18,7 @@ function playerchoice() {
     console.log(string3);
   } else {
     console.log("error please try again");
+    playerSelection = 0;
   }
 }
 
@@ -72,7 +73,7 @@ function game() {
   let computerscore = 0;
   let playerscore = 0;
 
-  while (playerscore < 2 && computerscore < 2) {
+  while (playerscore < 5 && computerscore < 5) {
     playerchoice();
     getComputerChoice();
     let result = playRound(playerSelection, computerSelection);
