@@ -4,10 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <!-- font assom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <script src="./javascript.js"></script>
+
+
+    <div class="wrapper">
+        <div class="rules">First to score 5 points wins the game</div>
+    </div>
+
+    <div class="wrapper">
+        <button class="btn1 button1">Rock</button>
+        <button class="btn2 button1">Paper</button>
+        <button class="btn3 button1">Scissors</button>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="scoreBord">
+
+            <div id="playerScore">
+                You
+                <span class="result-score" data-your-score>0</span>
+            </div>
+
+            <div id="compuuterScore">
+                <div id="compuuterScore">
+                    Computer
+                    <span class="result-score" data-computer-score>0</span>
+                </div>
+            </div>
+
+            <button class="refresh" type="button" onClick="window.location.reload()">
+                ↻
+            </button>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>Created by Carlos Rodriguez</div>
+        <div class="wrapper">
+            <a href="https://github.com/Vanilla179"><i class="fab fa-github" style='font-size:25px'></i></a>
+            </span>
+        </div>
+
+
+    </div>
+    <script src="./javascript.js"></script
+
 </body>
 
 </html>
